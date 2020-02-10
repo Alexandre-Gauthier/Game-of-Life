@@ -1,0 +1,41 @@
+﻿  Console.cpp
+  ConsoleColor.cpp
+  ConsoleContext.cpp
+  ConsoleImage.cpp
+  ConsoleKeyEvent.cpp
+  ConsoleKeyFilterDown.cpp
+  ConsoleKeyFilterModifiers.cpp
+  ConsoleKeyFilterUp.cpp
+  ConsoleKeyReader.cpp
+  ConsolePixel.cpp
+  ConsoleWriter.cpp
+  GoLActionKeyBinding.cpp
+  GoLController.cpp
+  GoLModel.cpp
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLModel.cpp(42): warning C4244: 'argument' : conversion de 'size_t' en 'double', perte possible de données
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLModel.cpp(61): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLModel.cpp(157): warning C4244: 'argument' : conversion de 'size_t' en 'double', perte possible de données
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLModel.cpp(215): warning C4244: 'argument' : conversion de 'size_t' en 'double', perte possible de données
+  GoLNeighborhood.cpp
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLNeighborhood.cpp(15): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLNeighborhood.cpp(16): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\GoLNeighborhood.cpp(22): warning C4267: 'argument' : conversion de 'size_t' en 'const int', perte possible de données
+  GoLProject.cpp
+  GoLRule.cpp
+  GoLView.cpp
+  RandomUtil.cpp
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\RandomUtil.cpp(10): warning C4244: 'argument' : conversion de 'double' en '_Ty', perte possible de données
+          with
+          [
+              _Ty=int
+          ]
+  RLEReader.cpp
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\RLEReader.cpp(31): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  Compilation en cours...
+  Space.cpp
+  State.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 2358 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  B62_Projet_1.vcxproj -> C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\x64\Release\B62_Projet_1.exe

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="h\GoLActionKeyBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GoLController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GoLModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GoLNeighborhood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GoLRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GoLView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\RandomUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\RLEReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\Space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyFilterAny.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyFilterDown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyFilterModifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyFilterUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleKeyReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsolePixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console\Console.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleColor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleContext.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleImage.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleKeyEvent.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleKeyFilterDown.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleKeyFilterModifiers.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleKeyFilterUp.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleKeyReader.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsolePixel.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsoleWriter.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLActionKeyBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLNeighborhood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GoLView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\RandomUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\RLEReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Space.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+//    _____                   _            _ 
+//   | ____|_  _____ _ __ ___(_) ___ ___  / |
+//   |  _| \ \/ / _ \ '__/ __| |/ __/ _ \ | |
+//   | |___ >  <  __/ | | (__| | (_|  __/ | |
+//   |_____/_/\_\___|_|  \___|_|\___\___| |_|
+//       _    ____ _____         _  _        
+//      / \  / ___| ____| __   _| || |       
+//     / _ \| |   |  _|   \ \ / / || |_      
+//    / ___ \ |___| |___   \ V /|__   _|     
+//   /_/   \_\____|_____|   \_/    |_|       
+//                                           
+//
+//	L'objectif de cet exercice est d'améliorer la qualité du code de la 
+//	version précédente (1c).
+//
+//	Les modifications à apporter au projet sont : 
+//		- À chaque génération, il exixte plusieurs modes d'initialisation :
+//			- centré :
+//				- 1/2  : tous les états sont à 0 sauf l'état au centre qui est à 1
+//				- 1/4  : tous les états sont à 0 sauf 3 états séparant l'espace en 4 portions égales
+//				- 1/8  : tous les états sont à 0 sauf 7 états séparant l'espace en 8 portions égales
+//				- 1/16 : tous les états sont à 0 sauf 15 états séparant l'espace en 16 portions égales
+//			- aléatoire : 
+//				- 25% : tous les états sont générés aléatoirement avec un biais positif à 25%
+//				- 50% : tous les états sont générés aléatoirement avec un biais positif à 50%
+//				- 75% : tous les états sont générés aléatoirement avec un biais positif à 75%
+//			- damier : 
+//				- 0 : tous les états sont assignés selon le patron suivant : 0-1-0-1-0-1-0-1-0-1...
+//				- 1 : tous les états sont assignés selon le patron suivant : 1-0-1-0-1-0-1-0-1-0...
+//		- Il existe une liste de 24 règles d'intérêt :
+//				{ 11, 18, 22, 26, 28, 30, 50, 54, 57, 60, 90, 94, 102, 110, 122, 126, 146, 150, 154, 158, 188, 190, 220, 222 }
+//		- On change le menu pendant le déroulement du programme pour ceci :
+//			- (P) quitter -> et on demande de confirmer avant de quitter
+//			- (1) recule la règle de 100
+//			- (2) recule la règle de 10
+//			- (3) recule la règle de 5
+//			- (4) recule la règle de 2
+//			- (5) recule la règle de 1
+//			- (barre d'espacement) on reprend la même règle
+//			- (6) avance la règle de 1
+//			- (7) avance la règle de 2
+//			- (8) avance la règle de 5
+//			- (9) avance la règle de 10
+//			- (0) avance la règle de 100
+//			- (N) recule à la précédente règle d'intérêt
+//			- (M) avance à la prochaine règle d'intérêt
+//			- (Z) centré 1/2 -> passe en mode centré 1/2
+//			- (X) centré 1/4 -> passe en mode centré 1/4
+//			- (C) centré 1/8 -> passe en mode centré 1/8
+//			- (V) centré 1/16 -> passe en mode centré 1/16
+//			- (A) aléatoire 25% -> passe en mode aléatoire : 25%
+//			- (S) aléatoire 50% -> passe en mode aléatoire : 50%
+//			- (D) aléatoire 75% -> passe en mode aléatoire : 75%
+//			- (Q) damier 0 -> passe en mode damier 0
+//			- (W) damier 1 -> passe en mode damier 1
+//			- (...) toute autre touche équivaut à 6
+//	- On met de l'avant ces concepts :
+//		- utilisation des énumérations
+//		- orienté objet où est visé principalement la notion d'encapsulation
+//		- au minimum, ces classes doivent exister
+//			- Rule				représente la règle
+//			- State				représente l'état d'une cellule
+//			- Space				représente l'espace où chaque cellule possède un état spécifique
+//			- SpaceTime			représente le résultat d'une simulation complète (l'espace et le temps)
+//			- ECA				représente l'automate cellulaire élémentaire
+//		- les classes et algorithmes suivants pourraient être utiles :
+//			- std::array									<array>
+//			- std::lower_bound								<algorithm>
+//			- std::upper_bound								<algorithm>
+//	- On utilise le patron de conception MVC.
+//
+//	- On revient sur la notion des énumérations :
+//		- enum
+//		- enum class
+//	- On revient sur les principes de la programmation orientée objets
+//		- les trois grands principes
+//		- qu'est-ce que l'encapsulation?
+//			- agrégation des données et des services (attributs et méthodes ou variables et fonctions)
+//			- masquage
+//			- intégrité
+//		- constructeur(s) / destructeur
+//		- accesseur(s) / mutateur(s)
+//		- variables et fonctions statiques
+//	- Syntaxe en C++ :
+//		- class
+//		- masquage
+//		- attribut(s) et valeur par défaut
+//		- méthode(s)
+//		- généralités : constructeur / destructeur
+//		- particularité constructeur :
+//			- surcharge
+//			- "member initializer list"
+//			- délégué
+//		- fonctions spéciales (seulement les 2 premières)
+//			- default
+//			- delete
+//		- fonctions const
+//		- attributs et méthodes statiques
+//

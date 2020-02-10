@@ -1,0 +1,7 @@
+﻿  ConsoleImage.cpp
+  ConsoleKeyEvent.cpp
+  RLEReader.cpp
+C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\B62_Projet_1\cpp\RLEReader.cpp(31): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  State.cpp
+  Génération de code en cours...
+  B62_Projet_1.vcxproj -> C:\Users\alexa_001\Documents\Ecole\B62 - C++\game_of_life\_Remise\B62_Projet_1\x64\Debug\B62_Projet_1.exe
